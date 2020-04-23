@@ -1,0 +1,23 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+pageTitle:
+  US: "GSMArena.com - mobile phone reviews, news, specifications and more..."
+elements:
+  loginButton:
+    locators:
+      US: "id=login-active"
+  emailTextField:
+    locators:
+      US: "id=email"
+  passwordTextField:
+    locators:
+      US: "id=upass"
+  submitButton:
+    locators:
+      US: "id=nick-submit"
+pageValidators: [
+  loginButton.isVisible,
+  emailTextField.isPresent,
+  passwordTextField.isPresent,
+  submitButton.isPresent,
+]
+defaultLocale: "US"

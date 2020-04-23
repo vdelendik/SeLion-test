@@ -1,0 +1,15 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+pageTitle:
+  US: "Login - GSMArena.com"
+elements:
+  titleLabel:
+    locators:
+      US: "classname=article-info-name"
+  infoLabel:
+    locators:
+      US: "classname=res-success|classname=res-error"
+pageValidators: [
+  titleLabel.isVisible,
+  infoLabel.isVisible,
+]
+defaultLocale: "US"
