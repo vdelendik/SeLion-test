@@ -6,7 +6,7 @@
     <!-- optional (defaults to firefox). Firefox browser will be used for
       web test -->
     <parameter name="browser" value="*chrome"/>
-    <parameter name="runLocally" value="true"/>
+    <parameter name="runLocally" value="false"/>
 
     <test name="Test">
         <classes>
