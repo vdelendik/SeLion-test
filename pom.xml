@@ -132,7 +132,7 @@
 
                     <!-- Or dynamically with something like '-DsuiteXmlFile=src/test/resources/testng-sample.xml' -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>${project.build.directory}/test-classes/${suiteXmlFile}</suiteXmlFile>
+                        <suiteXmlFile>${project.build.directory}/test-classes/${suite}</suiteXmlFile>
                     </suiteXmlFiles>
 
                     <!-- Build with '-DskipTests=true' to bypass test execution @ build time Default: false -->
