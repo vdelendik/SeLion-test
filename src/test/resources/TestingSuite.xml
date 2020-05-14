@@ -10,7 +10,7 @@
 
     <test name="Test">
         <classes>
-            <class name="com.remo.seliontest.Testing"></class>
+            <class name="com.remo.seliontest.Testing"/>
         </classes>
     </test>
 </suite>
